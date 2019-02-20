@@ -1,24 +1,23 @@
 <template>
-    <div class="app">
-        <header class="app__header">
-            <h1 class="app__title">
-                SleightQuant: A Vuejs & Pythonic Algorithmic Trading Platform
-            </h1>
-        </header>
-    </div>
+<div class="app">
+  <header class="app__header">
+    <h1 class="app__title">
+      SleightQuant: A Vuejs & Pythonic Algorithmic Trading Platform
+    </h1>
+  </header>
+  <TVChartContainer />
+</div>
 </template>
 
 <script>
-
+import TVChartContainer from './components/TVChartContainer.vue'
 export default {
-    name: 'app',
-    components: {
-
-    },
+  name: 'app',
+  components: {
+    TVChartContainer
+  }
 }
-
 </script>
-
 
 <style lang="scss" scoped>
 .app {
