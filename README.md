@@ -1,7 +1,8 @@
 # SleightQuant
-![](https://img.shields.io/github/license/kelvingao/SleightQuant.svg?style=flat) 
+[![Build Status](https://travis-ci.com/kelvingao/sleightquant.svg?branch=master)](https://travis-ci.com/kelvingao/sleightquant)
+![LICENSE](https://img.shields.io/github/license/kelvingao/SleightQuant.svg?style=flat) 
 
-A vuejs & Pythonic Algorithm Trading Platform
+A Vuejs & Pythonic Algorithm Trading Platform
 
-## Copyright
-Copyright © 2019 Kelvin Gao
+## License
+MIT © 2019 Kelvin Gao
