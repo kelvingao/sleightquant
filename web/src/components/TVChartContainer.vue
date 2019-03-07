@@ -16,11 +16,11 @@ export default {
   name: 'TVChartContainer',
   props: {
     symbol: {
-      default: 'AAPL',
+      default: 'NG',
       type: String,
     },
     interval: {
-      default: 'D',
+      default: '1D',
       type: String,
     },
     containerId: {
@@ -28,7 +28,7 @@ export default {
       type: String,
     },
     datafeedUrl: {
-      default: 'https://demo_feed.tradingview.com',
+      default: 'http://127.0.0.1:5000',
       type: String,
     },
     libraryPath: {
