@@ -5,16 +5,18 @@
       SleightQuant: A Vuejs & Pythonic Algorithmic Trading Platform
     </h1>
   </header>
-  <TVChartContainer />
+  <TVChartContainerSocket />
 </div>
 </template>
 
 <script>
 import TVChartContainer from './components/TVChartContainer.vue'
+import TVChartContainerSocket from './components/TVChartContainerSocket.vue'
 export default {
   name: 'app',
   components: {
-    TVChartContainer
+    TVChartContainer,
+    TVChartContainerSocket
   }
 }
 </script>
